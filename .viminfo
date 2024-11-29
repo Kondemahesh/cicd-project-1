@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1732725014,,"wq!"
+|2,0,1732871358,,"wq!"
 
 # Search String History (newest to oldest):
 
@@ -23,238 +23,262 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1732727106," "
 
 # File marks:
-'0  9  2  ~/jenkinfile
-|4,48,9,2,1732725014,"~/jenkinfile"
-'1  6  31  ~/jenkinfile
-|4,49,6,31,1732724923,"~/jenkinfile"
-'2  6  31  ~/jenkinfile
-|4,50,6,31,1732724923,"~/jenkinfile"
-'3  13  0  ~/package.json
-|4,51,13,0,1732724190,"~/package.json"
-'4  736  0  ~/package-lock.json
-|4,52,736,0,1732724160,"~/package-lock.json"
-'5  1  0  ~/package-lock.json
-|4,53,1,0,1732724012,"~/package-lock.json"
-'6  1  0  ~/package-lock.json
-|4,54,1,0,1732724012,"~/package-lock.json"
-'7  1  0  ~/package-lock.json
-|4,55,1,0,1732723958,"~/package-lock.json"
-'8  1  0  ~/package-lock.json
-|4,56,1,0,1732723958,"~/package-lock.json"
-'9  1  0  ~/package-lock.json
-|4,57,1,0,1732723907,"~/package-lock.json"
+'0  17  0  ~/Jenkinsfile
+|4,48,17,0,1732871358,"~/Jenkinsfile"
+'1  2  19  ~/Jenkinsfile
+|4,49,2,19,1732729320,"~/Jenkinsfile"
+'2  2  19  ~/Jenkinsfile
+|4,50,2,19,1732729320,"~/Jenkinsfile"
+'3  2  20  ~/Jenkinsfile
+|4,51,2,20,1732729075,"~/Jenkinsfile"
+'4  2  20  ~/Jenkinsfile
+|4,52,2,20,1732729075,"~/Jenkinsfile"
+'5  21  0  ~/Dockerfile
+|4,53,21,0,1732728362,"~/Dockerfile"
+'6  9  1  ~/jenkinfile
+|4,54,9,1,1732727116,"~/jenkinfile"
+'7  9  2  ~/jenkinfile
+|4,55,9,2,1732725014,"~/jenkinfile"
+'8  6  31  ~/jenkinfile
+|4,56,6,31,1732724923,"~/jenkinfile"
+'9  6  31  ~/jenkinfile
+|4,57,6,31,1732724923,"~/jenkinfile"
 
 # Jumplist (newest first):
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1732871358,"~/Jenkinsfile"
+-'  2  19  ~/Jenkinsfile
+|4,39,2,19,1732871081,"~/Jenkinsfile"
+-'  2  19  ~/Jenkinsfile
+|4,39,2,19,1732729320,"~/Jenkinsfile"
+-'  2  20  ~/Jenkinsfile
+|4,39,2,20,1732729075,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1732729007,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1732729007,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1732729007,"~/Jenkinsfile"
+-'  21  0  ~/Dockerfile
+|4,39,21,0,1732728362,"~/Dockerfile"
+-'  21  0  ~/Dockerfile
+|4,39,21,0,1732728362,"~/Dockerfile"
+-'  21  0  ~/Dockerfile
+|4,39,21,0,1732728362,"~/Dockerfile"
+-'  21  0  ~/Dockerfile
+|4,39,21,0,1732728362,"~/Dockerfile"
+-'  21  0  ~/Dockerfile
+|4,39,21,0,1732728362,"~/Dockerfile"
+-'  21  0  ~/Dockerfile
+|4,39,21,0,1732728362,"~/Dockerfile"
+-'  21  0  ~/Dockerfile
+|4,39,21,0,1732728362,"~/Dockerfile"
+-'  21  0  ~/Dockerfile
+|4,39,21,0,1732728362,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1732728354,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1732728354,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1732728354,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1732728354,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1732728354,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1732728354,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1732728354,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1732728354,"~/Dockerfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  1  ~/jenkinfile
+|4,39,9,1,1732727116,"~/jenkinfile"
+-'  9  2  ~/jenkinfile
+|4,39,9,2,1732725014,"~/jenkinfile"
+-'  9  2  ~/jenkinfile
+|4,39,9,2,1732725014,"~/jenkinfile"
+-'  9  2  ~/jenkinfile
+|4,39,9,2,1732725014,"~/jenkinfile"
+-'  9  2  ~/jenkinfile
+|4,39,9,2,1732725014,"~/jenkinfile"
+-'  9  2  ~/jenkinfile
+|4,39,9,2,1732725014,"~/jenkinfile"
+-'  9  2  ~/jenkinfile
+|4,39,9,2,1732725014,"~/jenkinfile"
+-'  9  2  ~/jenkinfile
+|4,39,9,2,1732725014,"~/jenkinfile"
+-'  9  2  ~/jenkinfile
+|4,39,9,2,1732725014,"~/jenkinfile"
+-'  9  2  ~/jenkinfile
+|4,39,9,2,1732725014,"~/jenkinfile"
+-'  9  2  ~/jenkinfile
+|4,39,9,2,1732725014,"~/jenkinfile"
+-'  9  2  ~/jenkinfile
+|4,39,9,2,1732725014,"~/jenkinfile"
+-'  9  2  ~/jenkinfile
+|4,39,9,2,1732725014,"~/jenkinfile"
+-'  9  2  ~/jenkinfile
+|4,39,9,2,1732725014,"~/jenkinfile"
+-'  9  2  ~/jenkinfile
+|4,39,9,2,1732725014,"~/jenkinfile"
+-'  9  2  ~/jenkinfile
+|4,39,9,2,1732725014,"~/jenkinfile"
 -'  9  2  ~/jenkinfile
 |4,39,9,2,1732725014,"~/jenkinfile"
 -'  6  31  ~/jenkinfile
 |4,39,6,31,1732724967,"~/jenkinfile"
 -'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724967,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
 |4,39,6,31,1732724923,"~/jenkinfile"
--'  1  0  ~/jenkinfile
-|4,39,1,0,1732724232,"~/jenkinfile"
--'  1  0  ~/jenkinfile
-|4,39,1,0,1732724232,"~/jenkinfile"
--'  13  0  ~/package.json
-|4,39,13,0,1732724190,"~/package.json"
--'  13  0  ~/package.json
-|4,39,13,0,1732724190,"~/package.json"
--'  13  0  ~/package.json
-|4,39,13,0,1732724190,"~/package.json"
--'  13  0  ~/package.json
-|4,39,13,0,1732724190,"~/package.json"
--'  1  0  ~/package.json
-|4,39,1,0,1732724182,"~/package.json"
--'  1  0  ~/package.json
-|4,39,1,0,1732724182,"~/package.json"
--'  1  0  ~/package.json
-|4,39,1,0,1732724182,"~/package.json"
--'  1  0  ~/package.json
-|4,39,1,0,1732724182,"~/package.json"
--'  736  0  ~/package-lock.json
-|4,39,736,0,1732724160,"~/package-lock.json"
--'  736  0  ~/package-lock.json
-|4,39,736,0,1732724160,"~/package-lock.json"
--'  736  0  ~/package-lock.json
-|4,39,736,0,1732724160,"~/package-lock.json"
--'  736  0  ~/package-lock.json
-|4,39,736,0,1732724160,"~/package-lock.json"
--'  736  0  ~/package-lock.json
-|4,39,736,0,1732724160,"~/package-lock.json"
--'  736  0  ~/package-lock.json
-|4,39,736,0,1732724160,"~/package-lock.json"
--'  736  0  ~/package-lock.json
-|4,39,736,0,1732724160,"~/package-lock.json"
--'  736  0  ~/package-lock.json
-|4,39,736,0,1732724160,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724064,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724064,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724064,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724064,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724064,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724064,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724064,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724064,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724012,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724012,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724012,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724012,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724012,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724012,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724012,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732724012,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723958,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723958,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723958,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723958,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723958,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723958,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723958,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723958,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723907,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723907,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723907,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723907,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723907,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723907,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723907,"~/package-lock.json"
--'  1  0  ~/package-lock.json
-|4,39,1,0,1732723907,"~/package-lock.json"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
--'  11  2  ~/app.js
-|4,39,11,2,1732723855,"~/app.js"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724923,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724923,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724923,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724923,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724923,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724923,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724923,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724923,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724923,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724923,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724923,"~/jenkinfile"
+-'  6  31  ~/jenkinfile
+|4,39,6,31,1732724923,"~/jenkinfile"
 
 # History of marks within files (newest to oldest):
 
+> ~/Jenkinsfile
+	*	1732871354	0
+	"	17	0
+	^	17	1
+	.	18	0
+	+	2	20
+	+	10	31
+	+	11	31
+	+	12	32
+	+	14	0
+	+	13	45
+	+	14	0
+	+	18	0
+
+> ~/Dockerfile
+	*	1732728359	0
+	"	21	0
+	^	21	0
+	.	20	20
+	+	20	20
+
 > ~/jenkinfile
-	*	1732725009	0
-	"	9	2
-	^	9	3
-	.	9	3
+	*	1732727113	0
+	"	9	1
+	^	9	2
+	.	9	2
 	+	1	10
 	+	13	0
 	+	3	16
@@ -266,7 +290,7 @@
 	+	8	5
 	+	7	152
 	+	6	31
-	+	9	3
+	+	9	2
 
 > ~/package.json
 	*	1732724188	0
