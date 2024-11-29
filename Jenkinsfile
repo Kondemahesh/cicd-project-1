@@ -1,5 +1,8 @@
 pipeline {
-         agent any   
+         agent any
+              tools {
+               nodejs ('NodeJs') 
+}  
          stages{
               
                stage('Githubs'){
