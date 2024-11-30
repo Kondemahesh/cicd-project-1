@@ -37,7 +37,7 @@ pipeline {
                         sh """
                         ${SONAR_SCANNER_HOME}/bin/sonar-scanner \
                         -Dsonar.projectKey=${SONAR_PROJECT_KEY} \
-                        -Dsonar.host.url=http://34.124.186.95:9000 \
+                        -Dsonar.host.url=http://34.143.172.209:9000 \
                         -Dsonar.login=${SONAR_TOKEN}
                         """
                     }
@@ -50,6 +50,11 @@ pipeline {
                       docker.build("${DOCKER_HUB}:latest") 
 }
 }
-}   
 }
-}
+        stage('trivy scan') {
+           steps { 
+                    sh 'trivy --severity HIGH,CRITICAL --no-pogress --formate table -o trivy-report.html image ${DOCKER_HUB}:latest'
+           }
+         }  
+      }
+   }
