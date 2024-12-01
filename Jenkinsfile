@@ -73,7 +73,7 @@ pipeline {
     }
         stage('push image to Docker hub') {
               steps { 
-                    sh 'docker push kondemahesh/cicdpipeline:latest'
+                    sh 'docker push kondemahesh/cicdpipeline:$BUILD_NUMBER'
              }
           }
 stage('Deploy Docker Container') {
