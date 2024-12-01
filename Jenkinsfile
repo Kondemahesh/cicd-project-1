@@ -1,5 +1,9 @@
 pipeline {
     agent any
+     parameters {
+        string(name: 'Server_IP', defaultValue: '10.148.0.3', description: 'if any IP change is required, please enter it here')
+        string(name: 'User_Name', defaultValue: 'root', description: 'if any user change is required, please enter it here')
+    }
 
     tools {
         nodejs 'NodeJs' // Ensure 'NodeJs' is configured in Jenkins
@@ -72,5 +76,21 @@ pipeline {
                     sh 'docker push kondemahesh/cicdpipeline:latest'
              }
           }
+stage('Deploy Docker Container') {
+            steps {
+                script {
+                    sh """
+                        ssh -o StrictHostKeyChecking=no ${params.User_Name}@${params.Server_IP} '
+                        docker pull kondemahesh/cicdpipeline:$BUILD_NUMBER &&
+                        docker stop cicd-container || true &&
+                        docker rm cicd-container || true &&
+                        docker run -d --name cicd-container -p 8000:80 kondemahesh/cicdpipeline:$BUILD_NUMBER
+                        '
+                        """
+                    }
+                echo '#### Successfully deployed Docker container ####'
+            }
+        }
+        
 }
       }
