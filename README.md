@@ -1,8 +1,8 @@
 # cicd-project-1
-cicd-project-1
+1. cicd-project-1
 Step:1
-create ec2 server and install java 11 or 17 above also install Docker
-login in Jenkins server with docker hub credentials
+2. create ec2 server and install java 11 or 17 above also install Docker
+3. login in Jenkins server with docker hub credentials
 install Jenkins on that server & loginto Jenkins server install suggested plugins
 create another server install sonarqube & sonar scanner
 create project in sonarqube server. go to account --> security create token
