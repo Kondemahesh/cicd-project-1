@@ -3,15 +3,15 @@
 Step:1
 2. create ec2 server and install java 11 or 17 above also install Docker
 3. login in Jenkins server with docker hub credentials
-install Jenkins on that server & loginto Jenkins server install suggested plugins
-create another server install sonarqube & sonar scanner
-create project in sonarqube server. go to account --> security create token
-configure token in jenkins global credentials
-install sonarqube plugin & sonarqube scanner and configure in Jenkins tools section and apply & save
-configure github repository with Jenkins enable webhooks
-install docker plugin configure docker plugin in global tool cedentials
-install trivy plugin in Jenkins server
-Trivy is used to scan the image any vernabilities 
-push to image to docker hub registry 
-create password less authantication Jenkins server & target server 
-install docker & java in target sever
+4. install Jenkins on that server & loginto Jenkins server install suggested plugins
+5. create another server install sonarqube & sonar scanner
+6. create project in sonarqube server. go to account --> security create token
+7. configure token in jenkins global credentials
+8. install sonarqube plugin & sonarqube scanner and configure in Jenkins tools section and apply & save
+9. configure github repository with Jenkins enable webhooks
+10. install docker plugin configure docker plugin in global tool cedentials
+11. install trivy plugin in Jenkins server
+12. Trivy is used to scan the image any vernabilities 
+13. push to image to docker hub registry 
+14. create password less authantication Jenkins server & target server 
+15. install docker & java in target sever
