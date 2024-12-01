@@ -67,11 +67,10 @@ pipeline {
 }
         }
     }
-}
-         stage('push image to Docker hub') {
+        stage('push image to Docker hub') {
               steps { 
                     sh 'sudo docker push kondemahesh/cicdpipeline:latest'
              }
           }
+}
       }
-   }
