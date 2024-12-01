@@ -13,8 +13,9 @@ RUN npm install --only=production
 # Copy the rest of the application code into the container
 COPY . .
 
+ENV PORT=80
 # Expose the app on a port
-EXPOSE 3000
+EXPOSE 80
 
 # Command that runs the app
 CMD ["npm", "start"]
