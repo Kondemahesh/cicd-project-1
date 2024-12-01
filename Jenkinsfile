@@ -9,6 +9,9 @@ pipeline {
         SONAR_PROJECT_KEY = 'sonar-cicd'
         SONAR_SCANNER_HOME = tool 'SonarQube' // Ensure 'SonarQube' is configured in Jenkins
         DOCKER_HUB = 'kondemahesh/cicdpipeline'
+        ECR_REGISTRY = '481665130878.dkr.ecr.ap-south-1.amazonaws.com'
+        ECR_REPO = 'cicdproject'
+        IMAGE_TAG = 'latest'
     }
 
     stages {
@@ -56,5 +59,19 @@ pipeline {
                     sh 'trivy --severity HIGH,CRITICAL --quiet --format table -o trivy-report.html image ${DOCKER_HUB}:latest'
            }
          }  
+       stage('Log in ECR') {
+           steps { 
+               sh***
+                  aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 481665130878.dkr.ecr.ap-south-1.amazonaws.com
+                 ***
+             }
+          }
+         stage('push image to ECR') {
+              steps { 
+                    script {
+                           docker.image(${ECR_REGISTRY}/${ECR_REPO}:${IMAGE_TAG}*).push()
+                }
+             }
+          }
       }
    }
