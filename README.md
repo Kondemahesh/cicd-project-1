@@ -15,3 +15,7 @@ Step:1
 13. push to image to docker hub registry 
 14. create password less authantication Jenkins server & target server 
 15. install docker & java in target sever
+16. create ssh public key on Jenkin server /root/.ssh/authaizedkeys
+17. start log int to server ssh connection is Okay
+18. configure in Jenkins pipeline deploy stage
+19. deploy container on ec2 instance
