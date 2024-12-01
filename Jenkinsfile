@@ -69,7 +69,7 @@ pipeline {
     }
         stage('push image to Docker hub') {
               steps { 
-                    sh 'sudo docker push kondemahesh/cicdpipeline:latest'
+                    sh 'docker push kondemahesh/cicdpipeline:latest'
              }
           }
 }
