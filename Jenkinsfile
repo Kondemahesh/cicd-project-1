@@ -50,18 +50,18 @@ pipeline {
         stage('Docker image') {
           steps {
              script {
-                      docker.build("${DOCKER_HUB}:latest") 
+                      docker.build("${DOCKER_HUB}:$BUILD_NUMBER") 
 }
 }
 }
         stage('trivy scan') {
            steps { 
-                    sh 'trivy --severity HIGH,CRITICAL --quiet --format table -o trivy-report.html image ${DOCKER_HUB}:latest'
+                    sh 'trivy --severity HIGH,CRITICAL --quiet --format table -o trivy-report.html image ${DOCKER_HUB}:$BUILD_NUMBER'
            }
          }  
        stage('Log in docker hub') {
     steps { 
-        sh 'docker tag ${DOCKER_HUB}:latest kondemahesh/cicdpipeline:latest'
+        sh 'docker tag ${DOCKER_HUB}:latest kondemahesh/cicdpipeline:$BUILD_NUMBER'
         withCredentials([usernameColonPassword(credentialsId: 'dockerhubpwd', variable: 'dockerhubpwd')]) {
     // some block
 }
