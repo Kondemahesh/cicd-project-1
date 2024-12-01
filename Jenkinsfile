@@ -59,19 +59,18 @@ pipeline {
                     sh 'trivy --severity HIGH,CRITICAL --quiet --format table -o trivy-report.html image ${DOCKER_HUB}:latest'
            }
          }  
-       stage('Log in ECR') {
+       stage('Log in docker hub') {
     steps { 
-        sh '''
-            aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 481665130878.dkr.ecr.ap-south-1.amazonaws.com
-        '''
+        sh 'sudo docker tag ${DOCKER_HUB}:latest kondemahesh kondemahesh/cicdpipeline:latest'
+        withCredentials([usernameColonPassword(credentialsId: 'dockerhubpwd', variable: 'dockerhubpwd')]) {
+    // some block
+}
+        }
     }
 }
-
-         stage('push image to ECR') {
+         stage('push image to Docker hub') {
               steps { 
-                    script {
-                           docker.image("${DOCKER_HUB}:${IMAGE_TAG}").push()
-                }
+                    sh 'sudo docker push kondemahesh/cicdpipeline:latest'
              }
           }
       }
