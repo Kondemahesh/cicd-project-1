@@ -40,7 +40,7 @@ pipeline {
                         sh """
                         ${SONAR_SCANNER_HOME}/bin/sonar-scanner \
                         -Dsonar.projectKey=${SONAR_PROJECT_KEY} \
-                        -Dsonar.host.url=http://34.143.172.209:9000 \
+                        -Dsonar.host.url=http://35.197.141.178:9000 \
                         -Dsonar.login=${SONAR_TOKEN}
                         """
                     }
