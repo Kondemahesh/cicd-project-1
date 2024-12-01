@@ -80,7 +80,7 @@ stage('Deploy Docker Container') {
             steps {
                 script {
                     sh """
-                        ssh -o StrictHostKeyChecking=no ${params.User_Name}@${params.Server_IP} '
+                        ssh -o StrictHostKeyChecking=no /root/.ssh/id_rsa ${params.User_Name}@${params.Server_IP} '
                         docker pull kondemahesh/cicdpipeline:$BUILD_NUMBER &&
                         docker stop cicd-container || true &&
                         docker rm cicd-container || true &&
