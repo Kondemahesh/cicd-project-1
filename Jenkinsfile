@@ -61,7 +61,7 @@ pipeline {
          }  
        stage('Log in docker hub') {
     steps { 
-        sh 'sudo docker tag ${DOCKER_HUB}:latest kondemahesh kondemahesh/cicdpipeline:latest'
+        sh 'sudo docker tag ${DOCKER_HUB}:latest kondemahesh/cicdpipeline:latest'
         withCredentials([usernameColonPassword(credentialsId: 'dockerhubpwd', variable: 'dockerhubpwd')]) {
     // some block
 }
