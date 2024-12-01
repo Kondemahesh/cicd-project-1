@@ -70,7 +70,7 @@ pipeline {
          stage('push image to ECR') {
               steps { 
                     script {
-                           docker.image("${ECR_REGISTRY}/${ECR_REPO}:${IMAGE_TAG}").push()
+                           docker.image("${DOCKER_HUB}/${ECR_REPO}:${IMAGE_TAG}").push()
                 }
              }
           }
