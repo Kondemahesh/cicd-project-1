@@ -1,0 +1,3 @@
+k8s/* merge=ours
+bitbucket-pipeline.yaml merge=ours
+git config merge.ours.driver true
