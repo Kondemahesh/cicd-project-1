@@ -1,2 +1,4 @@
 #docker all files ignore
 docker
+docker/
+terraform/
